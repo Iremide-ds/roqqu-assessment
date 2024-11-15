@@ -34,9 +34,9 @@ class _TradeBottomSheetState extends State<TradeBottomSheet>
       vsync: this,
       initialIndex: widget.isBuy ? 0 : 1,
     );
-    _amountController.text = CurrencyInputFormatter().currencyFormat.format(0);
-    _limitPriceController.text =
-        CurrencyInputFormatter().currencyFormat.format(0);
+    // _amountController.text = CurrencyInputFormatter().currencyFormat.format(0);
+    // _limitPriceController.text =
+    //     CurrencyInputFormatter().currencyFormat.format(0);
   }
 
   @override

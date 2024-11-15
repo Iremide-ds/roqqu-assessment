@@ -20,7 +20,11 @@ abstract class DesignThemes {
       highlightColor: Colors.transparent,
       focusColor: focusColor,
       fontFamily: FontFamily.satoshi,
-      appBarTheme: AppBarTheme(backgroundColor: colorScheme.onSecondary),
+      appBarTheme: AppBarTheme(
+        backgroundColor: colorScheme.brightness == Brightness.dark
+            ? DesignColorPalette.primaryColorDark
+            : Colors.white,
+      ),
       inputDecorationTheme: const InputDecorationTheme(
         border: border,
         errorBorder: border,

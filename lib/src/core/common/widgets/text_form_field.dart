@@ -18,6 +18,7 @@ class AppTextFormField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: controller,
+      inputFormatters: formatters,
       textAlign: TextAlign.end,
       style: TextStyle(
         fontSize: 12,
@@ -25,6 +26,16 @@ class AppTextFormField extends StatelessWidget {
         color: context.isDarkMode
             ? DesignColorPalette.grey3
             : DesignColorPalette.grey2,
+      ),
+      decoration: InputDecoration(
+        hintText: "0.00 USD",
+        hintStyle: TextStyle(
+          fontSize: 12,
+          fontWeight: FontWeight.w500,
+          color: context.isDarkMode
+              ? DesignColorPalette.grey3
+              : DesignColorPalette.grey2,
+        ),
       ),
     );
   }

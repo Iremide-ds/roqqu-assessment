@@ -58,7 +58,6 @@ class AppDropdownFormField<T> extends StatelessWidget {
                 items: items.map((e) {
                   return DropdownMenuItem(value: e.$1, child: Text(e.$2));
                 }).toList(),
-                alignment: AlignmentDirectional.centerEnd,
                 decoration: const InputDecoration(
                   hintText: "Please select an option",
                 ),
