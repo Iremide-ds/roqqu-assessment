@@ -1,16 +1,39 @@
 # roqqu_assessment
 
-A new Flutter project.
+## GIF
+![Example GIF](./screenshots/roqqu.gif)
 
-## Getting Started
+## 🔧 Features
 
-This project is a starting point for a Flutter application.
+- **Custom Fonts**: Integrated `Satoshi` font family for a sleek UI.
+- **WebSocket Support**: Real-time data streaming using `web_socket_channel`.
+- **Beautiful Charts**: Candlestick charts using `candlesticks`.
+- **State Management**: Implemented with `provider`.
+- **HTTP Networking**: Built on `dio` with detailed logging via `pretty_dio_logger`.
+- **Localization**: Enabled with `intl` for multi-lingual support.
+- **Service Locator**: Using `get_it` for dependency injection.
+- **Logging**: Added structured logging with `logger`.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+
+- **Flutter SDK**: Version `^3.5.4` or above.
+- **Dart SDK**: Included in Flutter installation.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/roqqu-assessment.git
+   cd roqqu-assessment
+
+2. Install dependencies
+   ```bash
+   flutter pub get
+
+3. Run the app
+   ```bash
+    flutter run
