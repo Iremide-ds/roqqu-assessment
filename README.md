@@ -27,7 +27,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/roqqu-assessment.git
+   git clone https://github.com/Iremide-ds/roqqu-assessment.git
    cd roqqu-assessment
 
 2. Install dependencies
